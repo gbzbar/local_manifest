@@ -11,7 +11,7 @@
     <project path="hardware/libhardware" name="intervigilium/android_hardware_libhardware" revision="ics-chocolate" />
     <project path="hardware/msm7k" name="intervigilium/android_hardware_msm7k" revision="ics-test" />
     <project path="hardware/qcom/media" name="intervigilium/android_hardware_qcom_media" revision="ics-test" />
-    <project path="hardware/qcom/display" name="intervigilium/android_hardware_qcom_display" revision="ics-chocolate" />
+    <project path="hardware/qcom/display" name="vorbeth/android_hardware_qcom_display" revision="ics-chocolate" />
 
     <project path="device/htc/pyramid" name="vorbeth/android_device_htc_pyramid" />
     <project path="device/htc/msm8660-common" name="vorbeth/android_device_htc_msm8660-common" />
