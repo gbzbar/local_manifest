@@ -2,24 +2,14 @@
   <manifest>
   
     <remove-project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
-    <remove-project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
     <remove-project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
-    <remove-project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
-    <remove-project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
-    <remove-project path="vendor/qcom/opensource/omx/mm-core" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-core" />
-    <remove-project path="vendor/qcom/opensource/omx/mm-video" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-video" />
-    
+
     <project path="frameworks/base" name="vorbeth/android_frameworks_base" revision="ics-omx" />
-    <project path="hardware/libhardware" name="intervigilium/android_hardware_libhardware" revision="ics-chocolate" />
     <project path="hardware/msm7k" name="intervigilium/android_hardware_msm7k" revision="ics-test" />
-    <project path="hardware/qcom/media" name="intervigilium/android_hardware_qcom_media" revision="ics-test" />
-    <project path="hardware/qcom/display" name="intervigilium/android_hardware_qcom_display" revision="ics-chocolate" />
 
     <project path="device/htc/pyramid" name="vorbeth/android_device_htc_pyramid" />
     <project path="device/htc/msm8660-common" name="vorbeth/android_device_htc_msm8660-common" />
     
     <project path="vendor/htc/pyramid" name="vorbeth/android_vendor_htc_pyramid" />
-    <project path="vendor/qcom/opensource/omx/mm-core" name="vorbeth/android_vendor_qcom_opensource_omx_mm-core" />
-    <project path="vendor/qcom/opensource/omx/mm-video" name="vorbeth/android_vendor_qcom_opensource_omx_mm-video" />
       
   </manifest>
