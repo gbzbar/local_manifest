@@ -4,7 +4,7 @@
     <remove-project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
     <remove-project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
 
-    <project path="frameworks/base" name="vorbeth/android_frameworks_base" revision="ics-omx" />
+    <project path="frameworks/base" name="gbzbar/android_frameworks_base" />
     <project path="hardware/msm7k" name="intervigilium/android_hardware_msm7k" revision="ics-test" />
 
     <project path="device/htc/pyramid" name="vorbeth/android_device_htc_pyramid" />
