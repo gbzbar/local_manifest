@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <manifest>
-  
-    <remove-project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
-    <remove-project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
+
     <remove-project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
     <remove-project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
     <remove-project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
+  
+    <project path="device/htc/pyramid" name="CyanogenMod/android_device_htc_pyramid" />
+    <project path="device/htc/msm8660-common" name="CyanogenMod/android_device_htc_msm8660-common" />
 
-    <project path="frameworks/base" name="gbzbar/android_frameworks_base" />
-    <project path="hardware/msm7k" name="intervigilium/android_hardware_msm7k" revision="ics-test" />
-
-    <project path="device/htc/pyramid" name="vorbeth/android_device_htc_pyramid" />
-    <project path="device/htc/msm8660-common" name="vorbeth/android_device_htc_msm8660-common" />
-    
     <project path="vendor/htc/pyramid" name="vorbeth/android_vendor_htc_pyramid" />
-      
+
   </manifest>
